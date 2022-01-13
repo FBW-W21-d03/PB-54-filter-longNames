@@ -1,4 +1,4 @@
-const employees = ['Pippi Longstocking', 'Bartholomew Roberts', 'Hans Holbein the Younger'];
+const employees = ['Pippi Longstocking', 'Bartholomew Roberts', 'Hans Holbein the Younger', 'John', 'Robert'];
 console.log("Aufgabe 1: \n", employees);
 
 const kleine15 = employees.filter((zahl) => zahl.length < 15);
