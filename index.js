@@ -11,11 +11,11 @@ const namen = [
 ];
 
 const weniger = namen.filter((item) => {
-  return item.length <= 8;
+  return item.length <= 8; /* Weniger als 8 */
 });
 
 const mehr = namen.filter((item) => {
-  return item.length >= 16;
+  return item.length >= 16; /* Mehr als 16 */
 });
 console.log(namen);
 console.log("weniger als:", weniger);
