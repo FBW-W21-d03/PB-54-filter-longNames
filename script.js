@@ -3,7 +3,7 @@
 // ## Aufgabenstellung - Teil 1
 // Schreibe ein Array mit mindestens fünf Namen und folgenden Personen: 'Pippi Longstocking', 'Bartholomew Roberts' und 'Hans Holbein the Younger'.
 const namen = ['Pippi Longstocking', 'Bartholomew Roberts', 'Hans Holbein the Younger', 'Bartholomew'];
-
+namen.sort();
 // ## Aufgabenstellung - Teil 2
 // Wende nun die filter()-Methode auf das Array an, um nur Namen zu filtern, deren Länge kleiner oder gleich 15 ist.
 const aufgabenstellung = namen.filter((item) => {
@@ -15,5 +15,5 @@ return item.length <= 15;
 const aufgabenstellung1 = namen.filter((item) => {
   return item.length >= 15;
 });
-console.log(aufgabenstellung);
-console.log(aufgabenstellung1);
+console.log("Kleiner als 15: ", aufgabenstellung);
+console.log("Länger als 15: ",aufgabenstellung1);
